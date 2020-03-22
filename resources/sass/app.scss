@@ -6,3 +6,32 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+html, body {
+    height: 100vh;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-column,
+.flex-column-center {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-column-center {
+    justify-content: center;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.adjust-value {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    align-items: center;
+}

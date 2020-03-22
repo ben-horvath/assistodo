@@ -67,7 +67,7 @@
     <body>
         <div class="flex-center position-ref full-height">
             <div class="top links">
-                <a href="https://laravel.com/docs">Docs</a>
+                <a href="https://github.com/ben-horvath/assistodo/wiki">Docs</a>
                 <a href="https://github.com/ben-horvath/assistodo">GitHub</a>
             </div>
 
