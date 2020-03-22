@@ -11,5 +11,13 @@ const mix = require('laravel-mix');
  |
  */
 
+if (process.env.MIX_BROWSER_SYNC_DOMAIN) {
+    mix.browserSync(process.env.MIX_BROWSER_SYNC_DOMAIN);
+}
+
 mix.js('resources/js/app.js', 'public/js')
-   .sass('resources/sass/app.scss', 'public/css');
+    .sass('resources/sass/app.scss', 'public/css');
+
+if (mix.inProduction()) {
+    mix.version();
+}
